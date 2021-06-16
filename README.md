@@ -1,5 +1,5 @@
 # AlgorithmEngineerPrepares
-Structured and brief knowledge collections required for an algorithm engineer
+Structured MINIMAL knowledge collections required for an algorithm engineer
 
 0.ComputerVision/:
 0.Basics          2.Seg&Det         4.Metrics&Trics

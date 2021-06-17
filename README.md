@@ -1,5 +1,5 @@
 # AlgorithmEngineerPrepares
-Structured MINIMAL knowledge collections required for an algorithm engineer
+### Structured MINIMAL knowledge collections required for an algorithm engineer
 
 0.ComputerVision/:
 0.Basics          2.Seg&Det         4.Metrics&Trics
@@ -28,3 +28,8 @@ Structured MINIMAL knowledge collections required for an algorithm engineer
 
 999.Tools/:
 0.Git      1.Hadoop   2.SQL      3.Docker   4.BackEnd  5.FrontEnd
+
+
+
+![机器学习笔记：SVM与凸优化基础](assets/v2-fd91525e087c2cb3486d0c5c1fa99262_r.jpg)
+

@@ -5,7 +5,7 @@ Structured **MINIMAL** knowledge collections required for an algorithm engineer
 
 ---
 
-### 0x000 计算机视觉
+### 0x000 计算机视觉 [click](./0.ComputerVision)
 
 #### 基础概念
 
@@ -43,7 +43,7 @@ Resnet变体；SENet；DenseNet；
 
 ---
 
-### 0x001 数据处理
+### 0x001 数据处理 [click](./1.DataProcessing)
 
 #### 基础概念
 
@@ -57,7 +57,7 @@ Resnet变体；SENet；DenseNet；
 
 ---
 
-### 0x002 深度学习基础
+### 0x002 深度学习基础 [click](./2.DeepLearningBasic)
 
 #### 损失函数
 
@@ -83,7 +83,7 @@ TBD
 
 ---
 
-### 0x003（非NN类）机器学习基础
+### 0x003（非NN类）机器学习基础 [click](./3.MachineLearningBasic)
 
 #### 必备基础
 
@@ -99,7 +99,7 @@ SVM、LR、决策树等；k-d树；
 
 ---
 
-### 0x004 视觉与NLP中的Transformer
+### 0x004 视觉与NLP中的Transformer [click](./4.Transformer)
 
 #### 基础概念
 
@@ -117,7 +117,7 @@ BERT；
 
 ---
 
-### 0x005 自然语言处理基础
+### 0x005 自然语言处理基础 [click](5.NLPBasic)
 
 #### 必备基础
 
@@ -133,7 +133,7 @@ word2vec；GloVe；ELMO；fasttext；GPT类；BERT及其变体；
 
 ---
 
-### 0x006 信息论
+### 0x006 信息论 [click](./6.InformationTheory)
 
 TBD
 
@@ -143,7 +143,7 @@ TBD
 
 ---
 
-### 0x007 矩阵论
+### 0x007 矩阵论 [click](./7.Matrix)
 
 TBD
 
@@ -153,7 +153,7 @@ TBD
 
 ---
 
-### 0x008 统计推断与概率论
+### 0x008 统计推断与概率论 [click](./8.StatisticalInference)
 
 TBD
 
@@ -165,7 +165,7 @@ TBD
 
 ---
 
-### 0xFFF 常用工具类
+### 0xFFF 常用工具类 [click](./999.Tools)
 
 #### Git相关
 

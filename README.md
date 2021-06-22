@@ -1,11 +1,11 @@
-# AlgorithmEngineerPrepares
-Structured **MINIMAL** knowledge collections required for an algorithm engineer
+# AlgorithmEngineerPrepares_minimal_machine_learning_knowledge
+Structured **MINIMAL** knowledge system required for an algorithm engineer
 
-算法工程师的自我修养【算法最小必要知识体系概略】**（持续更新ing）**
+**算法工程师的自我修养**【算法最小必要知识体系概略】**（持续更新ing）**
 
 ---
 
-### 0x000 计算机视觉 [click](./0.ComputerVision)
+### 0x000 计算机视觉 [GO](./0.ComputerVision)
 
 #### 基础概念
 
@@ -27,6 +27,10 @@ TBD
 
 TBD
 
+#### 轻量化模型
+
+Mobilenet；Shufflenet；Squeezenet；Ghostnet；Efficientnet；
+
 #### 小样本学习
 
 TBD
@@ -43,7 +47,7 @@ Resnet变体；SENet；DenseNet；
 
 ---
 
-### 0x001 数据处理 [click](./1.DataProcessing)
+### 0x001 数据处理 [GO](./1.DataProcessing)
 
 #### 基础概念
 
@@ -57,7 +61,7 @@ Resnet变体；SENet；DenseNet；
 
 ---
 
-### 0x002 深度学习基础 [click](./2.DeepLearningBasic)
+### 0x002 深度学习基础 [GO](./2.DeepLearningBasic)
 
 #### 损失函数
 
@@ -69,21 +73,21 @@ Resnet变体；SENet；DenseNet；
 
 #### 激活函数
 
-常见激活函数；RELU6；GELU；
+常见激活函数；RELU6；GELU；Swish；
 
 #### 卷积层设计
 
-TBD
+分组卷积；deformable（可变）卷积；
 
 #### 初始化方法
 
-TBD
+常用初始化方法；
 
 
 
 ---
 
-### 0x003（非NN类）机器学习基础 [click](./3.MachineLearningBasic)
+### 0x003（非NN类）机器学习基础 [GO](./3.MachineLearningBasic)
 
 #### 必备基础
 
@@ -99,7 +103,7 @@ SVM、LR、决策树等；k-d树；
 
 ---
 
-### 0x004 视觉与NLP中的Transformer [click](./4.Transformer)
+### 0x004 视觉与NLP中的Transformer [GO](./4.Transformer)
 
 #### 基础概念
 
@@ -117,7 +121,7 @@ BERT；
 
 ---
 
-### 0x005 自然语言处理基础 [click](5.NLPBasic)
+### 0x005 自然语言处理基础 [GO](5.NLPBasic)
 
 #### 必备基础
 
@@ -133,7 +137,7 @@ word2vec；GloVe；ELMO；fasttext；GPT类；BERT及其变体；
 
 ---
 
-### 0x006 信息论 [click](./6.InformationTheory)
+### 0x006 信息论 [GO](./6.InformationTheory)
 
 TBD
 
@@ -143,7 +147,7 @@ TBD
 
 ---
 
-### 0x007 矩阵论 [click](./7.Matrix)
+### 0x007 矩阵论 [GO](./7.Matrix)
 
 TBD
 
@@ -153,13 +157,17 @@ TBD
 
 ---
 
-### 0x008 统计推断与概率论 [click](./8.StatisticalInference)
+### 0x008 统计推断与概率论 [GO](./8.StatisticalInference)
 
 TBD
 
 
 
+---
 
+### 0x009 PyTorch相关 [GO](./9.PyTorch)
+
+TBD
 
 
 

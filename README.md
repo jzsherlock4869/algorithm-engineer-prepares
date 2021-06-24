@@ -5,21 +5,21 @@ Structured **MINIMAL** knowledge system required for an algorithm engineer
 
 ---
 
-### 0x000 计算机视觉 [🐶](./0.ComputerVision)
+### 0x000 [计算机视觉 🐶](./0.ComputerVision)
 
 #### 基础概念
 
-图像分类经典模型（从LeNet、AlexNet到GoogLeNet）；[👉](./0.ComputerVision/0.Basics/0.ClassBasics.md)
+[图像分类经典模型（从LeNet、AlexNet到GoogLeNet）](./0.ComputerVision/0.Basics/0.ClassBasics.md)
 
-语义分割任务经典模型（FCN，Unet 到 DeepLab）；[👉](./0.ComputerVision/0.Basics/1.SegBasics.md)
+[语义分割任务经典模型（FCN，Unet 到 DeepLab）](./0.ComputerVision/0.Basics/1.SegBasics.md)
 
-目标检测任务基础模型（R-CNN到YOLO、SSD）；[👉](./0.ComputerVision/0.Basics/2.DetectionBasics.md)
+[目标检测任务基础模型（R-CNN到YOLO、SSD）](./0.ComputerVision/0.Basics/2.DetectionBasics.md)
 
 实例分割；
 
 视觉中的loss函数；
 
-CNN的轻量化与压缩的基本概念；[👉](./0.ComputerVision/0.Basics/5.LiteMethods.md)
+[CNN的轻量化与压缩的基本概念](./0.ComputerVision/0.Basics/5.LiteMethods.md)
 
 蒸馏（distillation）的基本原理；
 
@@ -35,7 +35,7 @@ low-level任务基本概念；
 
 RoIAlign；
 
-DeepLab中的CRF的实现；[👉](./0.ComputerVision/0.Basics/13.CRFsInCV.md)
+[DeepLab中的CRF的实现](./0.ComputerVision/0.Basics/13.CRFsInCV.md)
 
 #### 低层视觉技术（low-level task）
 
@@ -43,15 +43,15 @@ DeepLab中的CRF的实现；[👉](./0.ComputerVision/0.Basics/13.CRFsInCV.md)
 
 #### 分割与检测
 
-DeepLab系列模型内容梳理；[👉](./0.ComputerVision/2.Seg&Det/0.DeepLab.md)
+[DeepLab系列模型内容梳理](./0.ComputerVision/2.Seg&Det/0.DeepLab.md)
 
-并行的多尺度融合策略：HRNet；[👉](./0.ComputerVision/2.Seg&Det/1.HRNet.md)
+[并行的多尺度融合策略：HRNet](./0.ComputerVision/2.Seg&Det/1.HRNet.md)
 
-多次稠密上采样后融合的unet加强版：Unet++；[👉](./0.ComputerVision/2.Seg&Det/2.Unet++.md)
+[多次稠密上采样后融合的unet加强版：Unet++](./0.ComputerVision/2.Seg&Det/2.Unet++.md)
 
-OCRNet（Object Contextural Representation）：基于transformer attention机制的上下文关联策略；[👉](./0.ComputerVision/2.Seg&Det/3.OCRNet.md)
+[OCRNet（Object Contextural Representation）：基于transformer attention机制的上下文关联策略](./0.ComputerVision/2.Seg&Det/3.OCRNet.md)
 
-Dilated Residual Net（DRN）：空洞卷积改进resnet；[👉](./0.ComputerVision/2.Seg&Det/4.DilatedResNet.md)
+[Dilated Residual Net（DRN）：空洞卷积改进resnet](./0.ComputerVision/2.Seg&Det/4.DilatedResNet.md)
 
 #### 生成模型（GAN etc.）
 
@@ -63,19 +63,19 @@ TBD
 
 #### 轻量化模型
 
-Mobilenet系列模型梳理；[👉](./0.ComputerVision/5.LiteModels/0.Moblienet.md)
+[Mobilenet系列模型梳理](./0.ComputerVision/5.LiteModels/0.Moblienet.md)
 
-Shufflenet v1&v2：分组卷积加通道shuffle信息交互；[👉](./0.ComputerVision/5.LiteModels/1.Shufflenet.md)
+[Shufflenet v1&v2：分组卷积加通道shuffle信息交互](./0.ComputerVision/5.LiteModels/1.Shufflenet.md)
 
-Squeezenet：压缩通道学特征与膨胀；[👉](./0.ComputerVision/5.LiteModels/2.Squeezenet.md)
+[Squeezenet：压缩通道学特征与膨胀](./0.ComputerVision/5.LiteModels/2.Squeezenet.md)
 
-Ghostnet：ghost特征加简单变换生成丰富feature map；[👉](./0.ComputerVision/5.LiteModels/3.Ghostnet.md)
+[Ghostnet：ghost特征加简单变换生成丰富feature map](./0.ComputerVision/5.LiteModels/3.Ghostnet.md)
 
-Efficientnet：通道数、深度、分辨率的复合NAS搜索优化；[👉](./0.ComputerVision/5.LiteModels/4.EfficientNet.md)
+[Efficientnet：通道数、深度、分辨率的复合NAS搜索优化](./0.ComputerVision/5.LiteModels/4.EfficientNet.md)
 
 #### 小样本学习
 
-小样本基本概念；[👉](./0.ComputerVision/6.FewShotLearning/0.FewShotBasics.md)
+[小样本基本概念](./0.ComputerVision/6.FewShotLearning/0.FewShotBasics.md)
 
 小样本分割经典模型梳理；
 
@@ -91,21 +91,21 @@ Resnet变体；SENet；DenseNet；Inceptions；
 
 ---
 
-### 0x001 数据处理 [🐶](./1.DataProcessing)
+### 0x001 [数据处理🐶](./1.DataProcessing)
 
 #### 基础概念
 
-数据处理和评估中的常用度量指标（AUC/KS/Gain/Lift）；[👉](./1.DataProcessing/0.Basics/0.Measurements.md)
+[数据处理和评估中的常用度量指标（AUC/KS/Gain/Lift）](./1.DataProcessing/0.Basics/0.Measurements.md)
 
 #### 风控领域数据处理（*）
 
-特征分析之单变量分析（WOE/IV/PSI）；[👉](./1.DataProcessing/1.RiskManagement/0.SingleFactorAnalysis.md)
+[特征分析之单变量分析（WOE/IV/PSI）](./1.DataProcessing/1.RiskManagement/0.SingleFactorAnalysis.md)
 
 
 
 ---
 
-### 0x002 深度学习基础 [🐶](./2.DeepLearningBasic)
+### 0x002 [深度学习基础 🐶](./2.DeepLearningBasic)
 
 #### 损失函数
 
@@ -115,19 +115,19 @@ Resnet变体；SENet；DenseNet；Inceptions；
 
 #### 下降方法与学习率策略
 
-梯度下降法及其变体；[👉](./2.DeepLearningBasic/1.Descent&Scheduler/0.GradDescentMethods.md)
+[梯度下降法及其变体](./2.DeepLearningBasic/1.Descent&Scheduler/0.GradDescentMethods.md)
 
 L1 norm下的优化；ISTA&FISTA；学习率策略；ADMM；牛顿法；
 
 #### 激活函数
 
-常见激活函数（sigmoid/ReLU/Maxout 等）；[👉](./2.DeepLearningBasic/2.Activations/0.CommonActivations.md)
+[常见激活函数（sigmoid/ReLU/Maxout 等）](./2.DeepLearningBasic/2.Activations/0.CommonActivations.md)
 
-RELU6：适应低精度计算的有界激活函数；[👉](./2.DeepLearningBasic/2.Activations/1.ReLU6.md)
+[RELU6：适应低精度计算的有界激活函数](./2.DeepLearningBasic/2.Activations/1.ReLU6.md)
 
-GELU：依据高斯分布cdf计算设计的激活函数；[👉](./2.DeepLearningBasic/2.Activations/2.GELU.md)
+[GELU：依据高斯分布cdf计算设计的激活函数](./2.DeepLearningBasic/2.Activations/2.GELU.md)
 
-Swish：光滑非单调下有界的self-gating函数；[👉](./2.DeepLearningBasic/2.Activations/3.Swish.md)
+[Swish：光滑非单调下有界的self-gating函数](./2.DeepLearningBasic/2.Activations/3.Swish.md)
 
 #### 卷积层设计
 

@@ -1,4 +1,4 @@
-# AlgorithmEngineerPrepares_minimal_machine_learning_knowledge
+# AlgorithmEngineerPrepares
 Structured **MINIMAL** knowledge system required for an algorithm engineer
 
 **算法工程师的自我修养**【算法最小必要知识体系概略】**（持续更新ing）**

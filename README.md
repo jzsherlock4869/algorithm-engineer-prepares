@@ -21,7 +21,7 @@ DeepLab类模型；HRNet；Unet++；OCRNet；DRN；
 
 #### 生成模型（GAN etc.）
 
-TBD
+生成对抗网络GAN基本原理；cycle GAN；Style GAN；Wasserstein GAN；
 
 #### 评估指标与trick
 
@@ -33,7 +33,7 @@ Mobilenet；Shufflenet；Squeezenet；Ghostnet；Efficientnet；
 
 #### 小样本学习
 
-TBD
+小样本基本概念；小样本分割模型；
 
 #### 弱监督学习
 
@@ -41,7 +41,7 @@ TBD
 
 #### 骨干网络（backbone）
 
-Resnet变体；SENet；DenseNet；
+Resnet变体；SENet；DenseNet；Inceptions；
 
 
 
@@ -168,6 +168,10 @@ TBD
 ### 0x009 PyTorch相关 [GO](./9.PyTorch)
 
 TBD
+
+
+
+
 
 
 

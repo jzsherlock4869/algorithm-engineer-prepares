@@ -149,7 +149,7 @@ L1 norm下的优化；ISTA&FISTA；学习率策略；ADMM；牛顿法；
 
 kNN与k-d树：简单算法的工程优化
 
-[集成学习方法（bagging、boosting、stacking）、梯度提升原理]((./3.MachineLearningBasic/0.VeryBasic/2.Ensembles.md))
+[集成学习方法（bagging、boosting、stacking）、梯度提升原理](./3.MachineLearningBasic/0.VeryBasic/2.Ensembles.md)
 
 
 

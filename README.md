@@ -9,15 +9,15 @@ Structured **MINIMAL** knowledge system required for an algorithm engineer
 
 #### 基础概念
 
-[图像分类经典模型（从LeNet、AlexNet到GoogLeNet）](./0.ComputerVision/0.Basics/0.ClassBasics.md)
+[图像分类经典模型（LeNet、AlexNet、VGG、ResNet、GoogLeNet）](./0.ComputerVision/0.Basics/0.ClassBasics.md)
 
-[语义分割任务经典模型（FCN，Unet 到 DeepLab）](./0.ComputerVision/0.Basics/1.SegBasics.md)
+[语义分割任务经典模型（FCN，Unet，RefineNet。PSPnet、SegNet）](./0.ComputerVision/0.Basics/1.SegBasics.md)
 
-[目标检测任务基础模型（R-CNN到YOLO、SSD）](./0.ComputerVision/0.Basics/2.DetectionBasics.md)
+[目标检测任务基础模型（R-CNN系列、YOLO系列、SSD）](./0.ComputerVision/0.Basics/2.DetectionBasics.md)
 
-实例分割；
+实例分割基本概念与经典模型
 
-视觉中的loss函数；
+计算机视觉中的loss函数
 
 [CNN的轻量化与压缩的基本概念](./0.ComputerVision/0.Basics/5.LiteMethods.md)
 
@@ -33,7 +33,7 @@ DeepLab实现细节；
 
 low-level任务基本概念；
 
-RoIAlign；
+RoIAlign代码详解
 
 [DeepLab中的CRF的实现](./0.ComputerVision/0.Basics/13.CRFsInCV.md)
 
@@ -135,7 +135,7 @@ L1 norm下的优化；ISTA&FISTA；学习率策略；ADMM；牛顿法；
 
 #### 初始化方法
 
-常用初始化方法；
+[常用初始化方法（随机初始化、xavier初始化、kaiming初始化）](./2.DeepLearningBasic/4.WeightInitialization/BasicInit.md)
 
 
 
@@ -145,11 +145,15 @@ L1 norm下的优化；ISTA&FISTA；学习率策略；ADMM；牛顿法；
 
 #### 必备基础
 
-SVM、LR、决策树等；k-d树；
+[SVM、逻辑回归、决策树的关键内容整理](./3.MachineLearningBasic/0.VeryBasic/0.SVM&LR&DT.md)
+
+kNN与k-d树：简单算法的工程优化
+
+[集成学习方法（bagging、boosting、stacking）、梯度提升原理]((./3.MachineLearningBasic/0.VeryBasic/2.Ensembles.md))
 
 
 
-#### （相对）进阶模型与算法
+#### 进阶模型与算法
 
 隐马尔科夫模型HMM；MCMC；Viterbi算法；匈牙利算法；XGBoost/GBDT/LightGBM；
 
@@ -244,10 +248,4 @@ TBD
 #### 后端开发语言
 
 #### 前端开发语言
-
-
-
-
-
-![机器学习笔记：SVM与凸优化基础](assets/v2-fd91525e087c2cb3486d0c5c1fa99262_r.jpg)
 

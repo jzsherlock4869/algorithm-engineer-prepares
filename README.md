@@ -11,7 +11,7 @@ Structured **MINIMAL** knowledge system required for an algorithm engineer
 
 [图像分类经典模型（LeNet、AlexNet、VGG、ResNet、GoogLeNet）](./0.ComputerVision/0.Basics/0.ClassBasics.md)
 
-[语义分割任务经典模型（FCN，Unet，RefineNet。PSPnet、SegNet）](./0.ComputerVision/0.Basics/1.SegBasics.md)
+[语义分割任务经典模型（FCN、Unet、RefineNet、PSPnet、SegNet）](./0.ComputerVision/0.Basics/1.SegBasics.md)
 
 [目标检测任务基础模型（R-CNN系列、YOLO系列、SSD）](./0.ComputerVision/0.Basics/2.DetectionBasics.md)
 
@@ -55,11 +55,13 @@ RoIAlign代码详解
 
 #### 生成模型（GAN etc.）
 
-生成对抗网络GAN基本原理；cycle GAN；Style GAN；Wasserstein GAN；
+生成对抗网络GAN基本原理；Cycle GAN；Style GAN；Wasserstein GAN；
 
-#### 评估指标与trick
+#### 神经网络鲁棒性与攻击
 
-TBD
+神经网络的鲁棒性（clever Hans效应）
+
+
 
 #### 轻量化模型
 

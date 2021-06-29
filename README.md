@@ -99,9 +99,9 @@ Resnet变体；SENet；DenseNet；Inceptions；
 
 [数据处理和评估中的常用度量指标（AUC/KS/Gain/Lift）](./1.DataProcessing/0.Basics/0.Measurements.md)
 
-#### 风控领域数据处理（*）
+特征分箱原则与策略（等频分箱、等距分箱）
 
-[特征分析之单变量分析（WOE/IV/PSI）](./1.DataProcessing/1.RiskManagement/0.SingleFactorAnalysis.md)
+[特征分析之单变量分析（WOE/IV/PSI）](./1.DataProcessing/0.Basics/2.SingleFactorAnalysis.md)
 
 
 
@@ -158,6 +158,8 @@ kNN与k-d树：简单算法的工程优化
 #### 进阶模型与算法
 
 隐马尔科夫模型HMM；MCMC；Viterbi算法；匈牙利算法；XGBoost/GBDT/LightGBM；
+
+[宽表数据建模常用集成模型：XGBoost、GBDT、LightGBM，原理与区别](./3.MachineLearningBasic/1.AdvancedMethod/4.Xgboost&GBDT&LightGBM.md)
 
 
 

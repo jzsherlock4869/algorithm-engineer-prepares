@@ -5,7 +5,7 @@ Structured **MINIMAL** knowledge system required for an algorithm engineer
 
 ---
 
-### 0x000 [计算机视觉 🐶](./0.ComputerVision)
+### 0x000 [计算机视觉](./0.ComputerVision)
 
 #### 基础概念
 
@@ -13,7 +13,7 @@ Structured **MINIMAL** knowledge system required for an algorithm engineer
 
 [语义分割任务经典模型（FCN、Unet、RefineNet、PSPnet、SegNet）](./0.ComputerVision/0.Basics/1.SegBasics.md)
 
-[目标检测任务基础模型（R-CNN系列、YOLO系列、SSD）](./0.ComputerVision/0.Basics/2.DetectionBasics.md)
+[目标检测任务基础模型（两阶段、一阶段，包括R-CNN系列、YOLO系列、SSD）](./0.ComputerVision/0.Basics/2.DetectionBasics.md)
 
 实例分割基本概念与经典模型
 
@@ -37,9 +37,13 @@ RoIAlign代码详解
 
 [DeepLab中的CRF的实现](./0.ComputerVision/0.Basics/13.CRFsInCV.md)
 
+
+
 #### 低层视觉技术（low-level task）
 
 图像去噪；去雾；超分辨率；去雨雪；
+
+
 
 #### 分割与检测
 
@@ -56,6 +60,8 @@ RoIAlign代码详解
 #### 生成模型（GAN etc.）
 
 生成对抗网络GAN基本原理；Cycle GAN；Style GAN；Wasserstein GAN；
+
+
 
 #### 神经网络鲁棒性与攻击
 
@@ -75,15 +81,21 @@ RoIAlign代码详解
 
 [Efficientnet：通道数、深度、分辨率的复合NAS搜索优化](./0.ComputerVision/5.LiteModels/4.EfficientNet.md)
 
+
+
 #### 小样本学习
 
 [小样本基本概念](./0.ComputerVision/6.FewShotLearning/0.FewShotBasics.md)
 
 小样本分割经典模型梳理；
 
+
+
 #### 弱监督学习
 
 TBD
+
+
 
 #### 骨干网络（backbone）
 
@@ -93,7 +105,7 @@ Resnet变体；SENet；DenseNet；Inceptions；
 
 ---
 
-### 0x001 [数据处理🐶](./1.DataProcessing)
+### 0x001 [数据处理](./1.DataProcessing)
 
 #### 基础概念
 
@@ -107,19 +119,29 @@ Resnet变体；SENet；DenseNet；Inceptions；
 
 ---
 
-### 0x002 [深度学习基础 🐶](./2.DeepLearningBasic)
+### 0x002 [深度学习基础 ](./2.DeepLearningBasic)
 
 #### 损失函数
 
-常见损失函数整理；
+[最常用的损失函数（BCE、交叉熵、MSE、MAE）](./2.DeepLearningBasic/0.Losses/0.CommonLosses.md)
 
-特殊场景或应用的损失函数；
+[PyTorch中定义的其他几种损失函数（NLL、Multi-label、Huber、Triplet Loss等）](./2.DeepLearningBasic/0.Losses/1.PytorchLosses.md)
+
+[分割和检测任务中的损失函数（IoU loss、Dice loss、Lovasz loss）](./2.DeepLearningBasic/0.Losses/2.SegDetLosses.md)
+
+
 
 #### 下降方法与学习率策略
 
-[梯度下降法及其变体](./2.DeepLearningBasic/1.Descent&Scheduler/0.GradDescentMethods.md)
+[梯度下降法及其变体（Momentum、Nesterov、RMSprop、Adagrad、Adam、AdamW等）](./2.DeepLearningBasic/1.Descent&Scheduler/0.GradDescentMethods.md)
 
-L1 norm下的优化；ISTA&FISTA；学习率策略；ADMM；牛顿法；
+[牛顿法和拟牛顿法：二阶优化的策略](./2.DeepLearningBasic/1.Descent&Scheduler/5.NewtonMethod.md)
+
+[Gradient Clipping：梯度裁剪，防止梯度爆炸的手段](./2.DeepLearningBasic/1.Descent&Scheduler/6.GradientClipping.md)
+
+L1 norm下的优化；ISTA&FISTA；学习率策略；ADMM；
+
+
 
 #### 激活函数
 
@@ -131,9 +153,13 @@ L1 norm下的优化；ISTA&FISTA；学习率策略；ADMM；牛顿法；
 
 [Swish：光滑非单调下有界的self-gating函数](./2.DeepLearningBasic/2.Activations/3.Swish.md)
 
+
+
 #### 卷积层设计
 
-分组卷积；deformable（可变）卷积；
+分组卷积；deformable（可变）卷积
+
+
 
 #### 初始化方法
 
@@ -143,7 +169,7 @@ L1 norm下的优化；ISTA&FISTA；学习率策略；ADMM；牛顿法；
 
 ---
 
-### 0x003（非NN类）机器学习基础 [🐶](./3.MachineLearningBasic)
+### 0x003[（非NN类）机器学习基础](./3.MachineLearningBasic)
 
 #### 必备基础
 
@@ -157,7 +183,7 @@ kNN与k-d树：简单算法的工程优化
 
 #### 进阶模型与算法
 
-隐马尔科夫模型HMM；MCMC；Viterbi算法；匈牙利算法；XGBoost/GBDT/LightGBM；
+隐马尔科夫模型HMM；MCMC；Viterbi算法；匈牙利算法；
 
 [宽表数据建模常用集成模型：XGBoost、GBDT、LightGBM，原理与区别](./3.MachineLearningBasic/1.AdvancedMethod/4.Xgboost&GBDT&LightGBM.md)
 
@@ -165,25 +191,23 @@ kNN与k-d树：简单算法的工程优化
 
 ---
 
-### 0x004 视觉与NLP中的Transformer [🐶](./4.Transformer)
+### 0x004 [视觉中的Transformer ](./4.Transformer)
 
 #### 基础概念
 
 注意力机制；
 
+
+
 #### 视觉Transformer
 
 ViT模型；Swin Transformer；DETR；SETR；DeiT；CaiT；Segmenter；SegFormer；MLP-Mixer（非transformer）；
-
-#### NLP中的Transformer
-
-BERT；
 
 
 
 ---
 
-### 0x005 自然语言处理基础 [🐶](5.NLPBasic)
+### 0x005 [自然语言处理基础 ](5.NLPBasic)
 
 #### 必备基础
 
@@ -193,7 +217,25 @@ BERT；
 
 #### 基本NLP模型
 
-word2vec；GloVe；ELMO；fasttext；GPT类；BERT及其变体；
+[最基础的词嵌入模型Word2vec（skip-gram & cbow）](./5.NLPBasic/1.NLPModels/0.Word2vec.md)
+
+[GloVe词嵌入：基于共现矩阵学习词间**关系**差别的嵌入方法](./5.NLPBasic/1.NLPModels/1.Glove.md)
+
+[ELMo：基于语言模型的bi-LSTM的基于上下文动态嵌入的模型，处理一词多义（芝麻街命名模型第一弹）](./5.NLPBasic/1.NLPModels/2.ELMo.md)
+
+[FastText：Facebook开源的文本分类和词嵌入工具包](./5.NLPBasic/1.NLPModels/3.Fasttext.md)
+
+[GPT系列：Generative Pre-Training，单向Transformer，非监督预训练+下游任务微调](./5.NLPBasic/1.NLPModels/4.GPT.md)
+
+[BERT：谷歌开放的基于bidirectional Transformer的最强语言模型，BERT yyds !](./5.NLPBasic/1.NLPModels/5.BERT&Variants.md)
+
+
+
+#### NLP模型实现的相关tricks
+
+[Negative Sampling：词嵌入训练中的负采样操作](./5.NLPBasic/2.NLPTricks/0.NegativeSampling.md)
+
+[Hierachical Softmax：基于Huffman编码的高输出维度（词典大小）的优化方法](./5.NLPBasic/2.NLPTricks/1.HierarchicalSoftmax.md)
 
 
 
@@ -222,6 +264,8 @@ TBD
 ### 0x008 统计推断与概率论 [🐶](./8.StatisticalInference)
 
 TBD
+
+
 
 
 

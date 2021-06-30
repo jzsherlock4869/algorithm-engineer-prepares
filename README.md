@@ -1,7 +1,13 @@
-# AlgorithmEngineerPrepares
-Structured **MINIMAL** knowledge system required for an algorithm engineer
+# Algorithm Engineer Prepares
+### **算法工程师的自我修养**
 
-**算法工程师的自我修养**【算法最小必要知识体系概略】**（持续更新ing）**
+【一个关于算法类的最小必要知识梳理】**（持续更新ing）**
+
+
+
+![DeathNote L](assets/main-qimg-ed9888b785a37128d862fa85037753eb.png)
+
+
 
 ---
 
@@ -57,6 +63,8 @@ RoIAlign代码详解
 
 [Dilated Residual Net（DRN）：空洞卷积改进resnet](./0.ComputerVision/2.Seg&Det/4.DilatedResNet.md)
 
+
+
 #### 生成模型（GAN etc.）
 
 生成对抗网络GAN基本原理；Cycle GAN；Style GAN；Wasserstein GAN；
@@ -87,7 +95,17 @@ RoIAlign代码详解
 
 [小样本基本概念](./0.ComputerVision/6.FewShotLearning/0.FewShotBasics.md)
 
-小样本分割经典模型梳理；
+[小样本分割经典模型梳理](./0.ComputerVision/6.FewShotLearning/1.FewShotSegmentation.md)
+
+- **OSLSM** 2017 （Pascal 5i做交叉验证，weight hashing，sup和que最终特征logistic回归）
+- **SG-One** 2018 （mask pooling + cosine sim）
+- **Prototype Alignment Network (PANet)** 2019 （alignment，一种类cycle loss）
+- **FSS-1000（relation net）** 2019 （主要是数据集FSS-1000，适用于小样本分割的数据集）
+- **CANet: Class-Agnostic Segmentation** 2019（对结果进行 refinement）
+- **BMVC 2018**  2018（网络设计较复杂）
+- **Prototype Mixture Models（PMM）** 2020  （将prototype拆成多个）
+- **Prior Guided Feature Enrichment Network（PFENet）** 2020（先生成无须训练的prior，后接多特征融合）
+- **FSIL（Few shot Seg Image Level）** 2020 （利用image-level的弱监督信息做few shot seg）
 
 
 
@@ -183,7 +201,9 @@ kNN与k-d树：简单算法的工程优化
 
 #### 进阶模型与算法
 
-隐马尔科夫模型HMM；MCMC；Viterbi算法；匈牙利算法；
+隐马尔科夫模型HMM；MCMC；Viterbi算法；
+
+[无权重二部图最大匹配的匈牙利算法（Hungarian Algorithm）、赋权图Kuhn-Munkres算法](./3.MachineLearningBasic/1.AdvancedMethod/3.Hungary&KM.md)
 
 [宽表数据建模常用集成模型：XGBoost、GBDT、LightGBM，原理与区别](./3.MachineLearningBasic/1.AdvancedMethod/4.Xgboost&GBDT&LightGBM.md)
 
@@ -271,7 +291,29 @@ TBD
 
 ---
 
-### 0x009 PyTorch相关 [🐶](./9.PyTorch)
+### 0x009 [PyTorch相关](./9.PyTorch)
+
+TBD
+
+
+
+
+
+------
+
+### 0x00A [数据结构与算法](./10.PureAlgorithm)
+
+[数据结构：单调栈（MonoStack）基本原理](./10.PureAlgorithm/7.Monostack.md)
+
+
+
+
+
+
+
+------
+
+### 0x00B [强化学习](./11.ReinforcementLearning)
 
 TBD
 
@@ -281,19 +323,51 @@ TBD
 
 
 
+------
+
+### 0x00C [推荐系统与推荐算法基础](./12.RecSys)
+
+TBD
+
+
+
+
+
+
+
+------
+
+### 0x00D [图嵌入与图神经网络相关算法](./13.GNN)
+
+TBD
+
+
+
+
+
 ---
 
-### 0xFFF 常用工具类 [🐶](./999.Tools)
+### 0xFFF [常用工具类](./999.Tools)
 
-#### Git相关
+#### >> Git相关
 
-#### hadoop相关
 
-#### SQL相关
 
-#### Docker相关
+#### >> hadoop相关
 
-#### 后端开发语言
 
-#### 前端开发语言
+
+#### >> SQL相关
+
+
+
+#### >> Docker相关
+
+
+
+#### >> 后端开发语言
+
+
+
+#### >> 前端开发语言
 

@@ -231,7 +231,9 @@ ViT模型；Swin Transformer；DETR；SETR；DeiT；CaiT；Segmenter；SegFormer
 
 #### 必备基础
 
-分词、词频、预处理等；主题模型；
+分词、词频、预处理等；
+
+主题模型；
 
 
 
@@ -339,7 +341,13 @@ TBD
 
 ### 0x00D [图嵌入与图神经网络相关算法](./13.GNN)
 
-TBD
+[图嵌入方法DeepWalk：利用random walk将图嵌入转为词嵌入](./13.GNN/0.DeepWalk.md)
+
+[LINE：基于一阶相似度和二阶（邻域）相似度的图嵌入方法](./13.GNN/6.LINE.md)
+
+[node2vec：通过参数整合BFS和DFS的游走采样](./13.GNN/1.node2vec.md)
+
+[PyTorchBigGraph：一种分块的处理大图的方法和框架，Facebook出品](./13.GNN/5.PyTorchBigGraph.md)
 
 
 
@@ -348,6 +356,8 @@ TBD
 ---
 
 ### 0xFFF [常用工具类](./999.Tools)
+
+
 
 #### >> Git相关
 

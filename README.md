@@ -67,7 +67,11 @@ RoIAlign代码详解
 
 #### 生成模型（GAN etc.）
 
-生成对抗网络GAN基本原理；Cycle GAN；Style GAN；Wasserstein GAN；
+[生成对抗网络GAN基本原理与问题](./0.ComputerVision/3.GenerativeModel/0.GANBasics.md)
+
+[Wasserstein GAN：log微操防止JS散度的梯度消失和logD trick的模式坍塌](./0.ComputerVision/3.GenerativeModel/3.WassersteinGAN.md)
+
+Cycle GAN；Style GAN；
 
 
 
@@ -231,7 +235,7 @@ ViT模型；Swin Transformer；DETR；SETR；DeiT；CaiT；Segmenter；SegFormer
 
 #### 必备基础
 
-分词、词频、预处理等；
+[文本数据预处理：分词、去停用词、tfidf编码](./5.NLPBasic/0.VeryBasics/0.Words.md)
 
 主题模型；
 
@@ -263,7 +267,7 @@ ViT模型；Swin Transformer；DETR；SETR；DeiT；CaiT；Segmenter；SegFormer
 
 ---
 
-### 0x006 信息论 [🐶](./6.InformationTheory)
+### 0x006 [信息论](./6.InformationTheory)
 
 TBD
 
@@ -273,7 +277,7 @@ TBD
 
 ---
 
-### 0x007 矩阵论 [🐶](./7.Matrix)
+### 0x007 [矩阵论](./7.Matrix)
 
 TBD
 
@@ -283,7 +287,7 @@ TBD
 
 ---
 
-### 0x008 统计推断与概率论 [🐶](./8.StatisticalInference)
+### 0x008 [统计推断与概率论](./8.StatisticalInference)
 
 TBD
 

@@ -333,9 +333,15 @@ TBD
 
 ### 0x00C [推荐系统与推荐算法基础](./12.RecSys)
 
-TBD
+[经典推荐算法：协同过滤（Collaborative Filtering，CF）](./12.RecSys/0.CF.md)
 
+[Matrix Factorization：从用户-物品矩阵中分解出用户和物品的特征隐向量](./12.RecSys/1.MF.md)
 
+[LR模型及其改进版MLR（piece-wise LR）：一阶特征建模的CTR预估](./12.RecSys/6.LR&MLR.md)
+
+[POLY2：二阶特征交叉](./12.RecSys/5.POLY2.md)
+
+[FM（因子分解机）和FFM（Field-aware FM）：隐向量内积实现特征交叉权重](./12.RecSys/0.CF.md)
 
 
 

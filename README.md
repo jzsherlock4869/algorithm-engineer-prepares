@@ -133,7 +133,7 @@ Resnet变体；SENet；DenseNet；Inceptions；
 
 [数据处理和评估中的常用度量指标（AUC/KS/Gain/Lift）](./1.DataProcessing/0.Basics/0.Measurements.md)
 
-特征分箱原则与策略（等频分箱、等距分箱）
+[特征分箱原则与策略（等频分箱、等距分箱、卡方分箱、bestKS分箱）](0.Basics/2.FeatureEngineering/1.BinCount.md)
 
 [特征分析之单变量分析（WOE/IV/PSI）](./1.DataProcessing/0.Basics/2.SingleFactorAnalysis.md)
 
@@ -311,7 +311,7 @@ TBD
 
 [数据结构：单调栈（MonoStack）基本原理](./10.PureAlgorithm/7.Monostack.md)
 
-
+[Huffman树与Huffman编码：最优权重路径的无损压缩编码算法](./10.PureAlgorithm/6.HuffmanTree.md)
 
 
 

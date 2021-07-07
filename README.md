@@ -299,7 +299,7 @@ TBD
 
 ### 0x009 [PyTorch相关](./9.PyTorch)
 
-TBD
+[并行化策略（DataParalle和DistributedDataParallel）与多机多卡训练](./9.PyTorch/0.DP&DDP.md)
 
 
 

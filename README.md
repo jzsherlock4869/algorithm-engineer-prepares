@@ -25,7 +25,7 @@
 
 计算机视觉中的loss函数
 
-[CNN的轻量化与压缩的基本概念](./0.ComputerVision/0.Basics/5.LiteMethods.md)
+[CNN的轻量化方法基本概念（剪枝、蒸馏、量化、小网络）](./0.ComputerVision/0.Basics/5.LiteMethods.md)
 
 蒸馏（distillation）的基本原理；
 
@@ -39,7 +39,7 @@ DeepLab实现细节；
 
 low-level任务基本概念；
 
-RoIAlign代码详解
+[RoIAlign算子具体代码实现（以facebook的maskrcnn-benchmark为例）](./0.ComputerVision/0.Basics/12.RoIAlign.md)
 
 [DeepLab中的CRF的实现](./0.ComputerVision/0.Basics/13.CRFsInCV.md)
 
@@ -62,6 +62,8 @@ RoIAlign代码详解
 [OCRNet（Object Contextural Representation）：基于transformer attention机制的上下文关联策略](./0.ComputerVision/2.Seg&Det/3.OCRNet.md)
 
 [Dilated Residual Net（DRN）：空洞卷积改进resnet](./0.ComputerVision/2.Seg&Det/4.DilatedResNet.md)
+
+[MS COCO 数据集的实例分割/目标检测的annotation基本格式](./0.ComputerVision/2.Seg&Det/7.COCOAnno.md)
 
 
 
@@ -386,6 +388,24 @@ TBD
 
 
 #### >> 后端开发语言
+
+##### ==== Python相关
+
+[Python的反射机制及其使用方法](./999.Tools/4.BackEnd/Python/5.Reflect.md)
+
+Python中的类（class）的原理与特点
+
+Python的垃圾回收机制（Garbage Collection）
+
+Python的with语句执行原理
+
+Python中的函数wrapper和装饰器（decorator）
+
+Python的线程、进程，与协程（Corountine）的基本概念
+
+
+
+##### ==== Java相关
 
 
 

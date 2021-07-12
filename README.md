@@ -315,6 +315,12 @@ TBD
 
 [Huffman树与Huffman编码：最优权重路径的无损压缩编码算法](./10.PureAlgorithm/6.HuffmanTree.md)
 
+[跳表（skiplist）：基于多级别索引的查找复杂度log(n)的链表](./10.PureAlgorithm/11.SkipList.md)
+
+[并查集（union-find）：近乎常数操作复杂度的不相交集合查询](./10.PureAlgorithm/1.UnionFind.md)
+
+[Trie（字典树/前缀树）字符串前缀匹配查询](./10.PureAlgorithm/3.Trie.md)
+
 
 
 

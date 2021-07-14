@@ -321,6 +321,8 @@ TBD
 
 [Trie（字典树/前缀树）字符串前缀匹配查询](./10.PureAlgorithm/3.Trie.md)
 
+[自平衡的二叉查找树：AVL树（平衡因子，左旋、右旋）](./10.PureAlgorithm/8.AVLtree.md)
+
 
 
 

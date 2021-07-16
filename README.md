@@ -65,7 +65,7 @@ low-level任务基本概念；
 
 [MS COCO 数据集的实例分割/目标检测的annotation基本格式](./0.ComputerVision/2.Seg&Det/7.COCOAnno.md)
 
-[anchor-free目标检测模型之：FCOS（多尺度、相对位置、centerness）](./0.ComputerVision/2.Seg&Det/7.COCOAnno.md)
+[anchor-free目标检测模型之：FCOS（多尺度、相对位置、centerness）](./0.ComputerVision/2.Seg&Det/5.FCOS.md)
 
 
 

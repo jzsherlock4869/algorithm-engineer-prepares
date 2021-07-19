@@ -67,7 +67,7 @@ low-level任务基本概念；
 
 [anchor-free目标检测模型之：FCOS（多尺度、相对位置、centerness）](./0.ComputerVision/2.Seg&Det/5.FCOS.md)
 
-
+[COCO数据集的官方api的基本用法（get类别/图像/标注Id、load图像/标注信息）](./0.ComputerVision/2.Seg&Det/14.Pycocotools.md)
 
 
 
@@ -231,7 +231,11 @@ kNN与k-d树：简单算法的工程优化
 
 #### 视觉Transformer
 
-ViT模型；Swin Transformer；DETR；SETR；DeiT；CaiT；Segmenter；SegFormer；MLP-Mixer（非transformer）；
+[ViT模型基本原理：image=16x16 words](./4.VisionTransformer/1.VisionTransformer/0.ViT.md)
+
+[DETR：基于transformer的端到端目标检测（bbox集合预测、二分匹配）](./4.VisionTransformer/1.VisionTransformer/2.DETR.md)
+
+Swin Transformer；SETR；DeiT；CaiT；Segmenter；SegFormer；MLP-Mixer（非transformer）；
 
 
 

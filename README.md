@@ -6,7 +6,7 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=jzsherlock4869/algorithm-engineer-prepares)
 
 
-![DeathNote L](assets/main-qimg-ed9888b785a37128d862fa85037753eb.png)
+<!-- ![DeathNote L](assets/main-qimg-ed9888b785a37128d862fa85037753eb.png) -->
 
 
 

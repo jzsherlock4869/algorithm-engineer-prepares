@@ -5,7 +5,6 @@
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=jzsherlock4869/algorithm-engineer-prepares)
 
-
 <!-- ![DeathNote L](assets/main-qimg-ed9888b785a37128d862fa85037753eb.png) -->
 
 
@@ -78,7 +77,7 @@ low-level任务基本概念；
 
 [Wasserstein GAN：log微操防止JS散度的梯度消失和logD trick的模式坍塌](./0.ComputerVision/3.GenerativeModel/3.WassersteinGAN.md)
 
-Cycle GAN；Style GAN；
+[CycleGAN：循环一致性约束的无监督domain transfer方案](./0.ComputerVision/3.GenerativeModel/1.CycleGAN.md)
 
 
 
@@ -419,6 +418,10 @@ Python的with语句执行原理
 Python中的函数wrapper和装饰器（decorator）
 
 Python的线程、进程，与协程（Corountine）的基本概念
+
+
+
+##### ==== C++ 相关
 
 
 

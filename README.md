@@ -47,7 +47,17 @@ low-level任务基本概念；
 
 #### 低层视觉技术（low-level task）
 
-图像去噪；去雾；超分辨率；去雨雪；
+图像与视频去噪经典算法与原理
+
+图像与视频超分辨率：任务与方法
+
+双目超分辨率（Stereo SR）相关模型
+
+无监督超分辨率方法
+
+去雾算法（Dehaze）：暗通道先验原理
+
+光流（Optical Flow）计算与应用：传统方法与光流网络
 
 
 
@@ -79,6 +89,10 @@ low-level任务基本概念；
 
 [CycleGAN：循环一致性约束的无监督domain transfer方案](./0.ComputerVision/3.GenerativeModel/1.CycleGAN.md)
 
+StyleGAN
+
+StarGAN
+
 
 
 #### 神经网络鲁棒性与攻击
@@ -98,6 +112,8 @@ low-level任务基本概念；
 [Ghostnet：ghost特征加简单变换生成丰富feature map](./0.ComputerVision/5.LiteModels/3.Ghostnet.md)
 
 [Efficientnet：通道数、深度、分辨率的复合NAS搜索优化](./0.ComputerVision/5.LiteModels/4.EfficientNet.md)
+
+轻量化超分网络：IMDN、ECBNet、RFDN
 
 
 
@@ -125,9 +141,37 @@ TBD
 
 
 
-#### 骨干网络（backbone）
+#### 小目标检测
 
-Resnet变体；SENet；DenseNet；Inceptions；
+TBD
+
+
+
+#### 重参数化策略
+
+RepVGG：make VGG great again！
+
+ECB（Edge-oriented Conv Block）：Sobel与Laplacian强化边缘的重参数化策略
+
+ACNet（Asymmetric Conv）：1x3、3x1、3x3的非对称重参数化
+
+DBB（Diverse Branch Block）：不同排列组合的多分支block
+
+SLaK中的重参数化：极端大核如何训练？
+
+
+
+#### 骨干网络（backbone）发展
+
+Resnet变体
+
+SENet：squeeze and excitation
+
+DenseNet
+
+Inceptions
+
+51x51 SLaK（Sparse Large Kernel）More ConvNets in the 2020s: Scaling up Kernels Beyond 51x51 using Sparsity
 
 
 
@@ -139,7 +183,7 @@ Resnet变体；SENet；DenseNet；Inceptions；
 
 [数据处理和评估中的常用度量指标（AUC/KS/Gain/Lift）](./1.DataProcessing/0.Basics/0.Measurements.md)
 
-[特征分箱原则与策略（等频分箱、等距分箱、卡方分箱、bestKS分箱）](0.Basics/2.FeatureEngineering/1.BinCount.md)
+[特征分箱原则与策略（等频分箱、等距分箱、卡方分箱、bestKS分箱）](./1.DataProcessing/2.FeatureEngineering/1.BinCount.md)
 
 [特征分析之单变量分析（WOE/IV/PSI）](./1.DataProcessing/0.Basics/2.SingleFactorAnalysis.md)
 
@@ -185,7 +229,9 @@ L1 norm下的优化；ISTA&FISTA；学习率策略；ADMM；
 
 #### 卷积层设计
 
-分组卷积；deformable（可变）卷积
+分组卷积
+
+deformable（可变）卷积
 
 
 

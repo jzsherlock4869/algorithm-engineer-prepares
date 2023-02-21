@@ -1,7 +1,7 @@
 # Algorithm Engineer Prepares
 ### **算法工程师的自我修养**
 
-【一个关于算法类的最小必要知识梳理】**（持续更新ing）**
+【算法岗相关的常用知识梳理，包括理论、代码、经典模型与新技术】**（持续更新ing）**
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=jzsherlock4869/algorithm-engineer-prepares)
 
@@ -137,13 +137,19 @@ StarGAN
 
 #### 弱监督学习
 
-TBD
+Image-level label 语义分割基本思路
 
 
 
 #### 小目标检测
 
-TBD
+小目标检测常见处理思路
+
+多尺度特征学习思路相关模型
+
+context-based 相关模型
+
+训练策略、loss函数、data augment思路相关方法汇总
 
 
 
@@ -243,7 +249,7 @@ deformable（可变）卷积
 
 ---
 
-### 0x003[（非NN类）机器学习基础](./3.MachineLearningBasic)
+### 0x003[传统机器学习基础（非NN类）](./3.MachineLearningBasic)
 
 #### 必备基础
 
@@ -257,7 +263,13 @@ kNN与k-d树：简单算法的工程优化
 
 #### 进阶模型与算法
 
-隐马尔科夫模型HMM；MCMC；Viterbi算法；
+隐马尔科夫模型（HMM）
+
+蒙特卡洛方法
+
+MCMC：马尔科夫链蒙特卡洛算法
+
+Viterbi算法
 
 [无权重二部图最大匹配的匈牙利算法（Hungarian Algorithm）、赋权图Kuhn-Munkres算法](./3.MachineLearningBasic/1.AdvancedMethod/3.Hungary&KM.md)
 
@@ -267,21 +279,33 @@ kNN与k-d树：简单算法的工程优化
 
 ---
 
-### 0x004 [视觉中的Transformer ](./4.Transformer)
+### 0x004 [视觉中的非CNN结构（Transformer/MLP） ](./4.Transformer)
 
 #### 基础概念
 
-注意力机制；
+注意力机制的原理、应用与局限
 
 
 
-#### 视觉Transformer
+#### 视觉Transformer与MLP（非CNN结构）
 
 [ViT模型基本原理：image=16x16 words](./4.VisionTransformer/1.VisionTransformer/0.ViT.md)
 
 [DETR：基于transformer的端到端目标检测（bbox集合预测、二分匹配）](./4.VisionTransformer/1.VisionTransformer/2.DETR.md)
 
-Swin Transformer；SETR；DeiT；CaiT；Segmenter；SegFormer；MLP-Mixer（非transformer）；
+Swin Transformer
+
+SETR
+
+DeiT
+
+CaiT
+
+Segmenter
+
+SegFormer
+
+MLP-Mixer（非transformer）
 
 
 
@@ -293,7 +317,7 @@ Swin Transformer；SETR；DeiT；CaiT；Segmenter；SegFormer；MLP-Mixer（非t
 
 [文本数据预处理：分词、去停用词、tfidf编码](./5.NLPBasic/0.VeryBasics/0.Words.md)
 
-主题模型；
+主题模型（topic model）
 
 
 
@@ -325,7 +349,9 @@ Swin Transformer；SETR；DeiT；CaiT；Segmenter；SegFormer；MLP-Mixer（非t
 
 ### 0x006 [信息论](./6.InformationTheory)
 
-TBD
+信息论基本概念与定义：信息量、信息熵、条件熵、相对熵
+
+香农三大定理：变长无失真信源编码、有噪信道、有损信源编码
 
 
 
@@ -335,7 +361,13 @@ TBD
 
 ### 0x007 [矩阵论](./7.Matrix)
 
-TBD
+矩阵与线性代数基础概念与定义
+
+图像处理与图形学中的矩阵变换
+
+基变换与坐标变换
+
+矩阵的对角化
 
 
 
@@ -345,9 +377,11 @@ TBD
 
 ### 0x008 [统计推断与概率论](./8.StatisticalInference)
 
-TBD
+贝叶斯定理与应用
 
+最大似然估计与最大后验估计
 
+古典概型例题汇总
 
 
 
@@ -357,7 +391,7 @@ TBD
 
 [并行化策略（DataParalle和DistributedDataParallel）与多机多卡训练](./9.PyTorch/0.DP&DDP.md)
 
-
+PyTorch中的Dataset处理逻辑
 
 
 
@@ -377,7 +411,7 @@ TBD
 
 [自平衡的二叉查找树：AVL树（平衡因子，左旋、右旋）](./10.PureAlgorithm/8.AVLtree.md)
 
-
+位图算法与布隆过滤器（Bloom Filter）
 
 
 
@@ -385,11 +419,11 @@ TBD
 
 ### 0x00B [强化学习](./11.ReinforcementLearning)
 
-TBD
+强化学习的基本概念
 
+Q-learning模型与SARSA模型
 
-
-
+深度强化学习概述
 
 
 
@@ -425,6 +459,28 @@ TBD
 
 
 
+---
+
+### 0x00E [信号处理相关常识与算法](./14.Signal)
+
+频域分析、傅里叶变换与FFT
+
+连续信号、离散信号，采样与奈奎斯特定理
+
+
+
+
+
+---
+
+### 0x00F [计算成像、图形学相关算法](./15.Graphics)
+
+光、颜色与颜色空间
+
+ISP基本处理流程
+
+计算机图形学基本概念
+
 
 
 ---
@@ -435,25 +491,39 @@ TBD
 
 #### >> Git相关
 
+Git基本原理
+
+Git常用操作指令
 
 
-#### >> hadoop相关
 
+#### >> 大数据处理 （hadoop、SQL、Hive、Spark）
 
+hadoop基本原理简介
 
-#### >> SQL相关
+SQL基本操作
+
+Hive表基本格式与原理
+
+Spark基本原理简介
 
 
 
 #### >> Docker相关
 
+Docker基本原理
+
+Docker常用指令
 
 
-#### >> 后端开发语言
+
+#### >> 编程语言相关
 
 ##### ==== Python相关
 
 [Python的反射机制及其使用方法](./999.Tools/4.BackEnd/Python/5.Reflect.md)
+
+Python中的深拷贝和浅拷贝
 
 Python中的类（class）的原理与特点
 
@@ -467,13 +537,19 @@ Python的线程、进程，与协程（Corountine）的基本概念
 
 
 
-##### ==== C++ 相关
+##### ==== C/C++ 相关
+
+C/C++基本常识、编译链接过程
+
+C++中的常用修饰符：static、const 等
+
+CMake的使用方法
 
 
 
 ##### ==== Java相关
 
+Java虚拟机基本原理
 
-
-#### >> 前端开发语言
+Java常用语法结构
 

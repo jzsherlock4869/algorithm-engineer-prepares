@@ -47,7 +47,7 @@ low-level任务基本概念；
 
 #### 低层视觉技术（low-level task）
 
-图像与视频去噪经典算法与原理
+[图像与视频去噪经典算法与原理](./0.ComputerVision/1.LowLevelTasks/0.Denoise.md)
 
 图像与视频超分辨率：任务与方法
 
@@ -218,6 +218,8 @@ Inceptions
 [Gradient Clipping：梯度裁剪，防止梯度爆炸的手段](./2.DeepLearningBasic/1.Descent&Scheduler/6.GradientClipping.md)
 
 L1 norm下的优化；ISTA&FISTA；学习率策略；ADMM；
+
+EMA（Exponential Moving Average）
 
 
 

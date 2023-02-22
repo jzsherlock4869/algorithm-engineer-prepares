@@ -23,11 +23,11 @@
 
 实例分割基本概念与经典模型
 
-计算机视觉中的loss函数
+[计算机视觉任务中常用的loss函数汇总](./0.ComputerVision/0.Basics/4.CVLosses.md)
 
 [CNN的轻量化方法基本概念（剪枝、蒸馏、量化、小网络）](./0.ComputerVision/0.Basics/5.LiteMethods.md)
 
-蒸馏（distillation）的基本原理；
+模型蒸馏（distillation）的基本原理
 
 YOLO实现细节；
 
@@ -81,7 +81,7 @@ low-level任务基本概念；
 
 
 
-#### 生成模型（GAN etc.）
+#### 生成模型（GAN、Diffusion Model etc.）
 
 [生成对抗网络GAN基本原理与问题](./0.ComputerVision/3.GenerativeModel/0.GANBasics.md)
 
@@ -89,9 +89,9 @@ low-level任务基本概念；
 
 [CycleGAN：循环一致性约束的无监督domain transfer方案](./0.ComputerVision/3.GenerativeModel/1.CycleGAN.md)
 
-StyleGAN
+StyleGAN 和 StarGAN
 
-StarGAN
+
 
 
 
@@ -394,6 +394,8 @@ MLP-Mixer（非transformer）
 [并行化策略（DataParalle和DistributedDataParallel）与多机多卡训练](./9.PyTorch/0.DP&DDP.md)
 
 PyTorch中的Dataset处理逻辑
+
+PyTorch模型量化与onnx转换处理流程
 
 
 

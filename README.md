@@ -29,15 +29,13 @@
 
 模型蒸馏（distillation）的基本原理
 
-YOLO实现细节；
+YOLO实现细节
 
-DeepLab实现细节；
+DeepLab实现细节
 
-非极大值抑制方法（NMS）及其实现；
+非极大值抑制方法（NMS）及其实现
 
-数据增广与测试时增强（TTA）；
-
-low-level任务基本概念；
+数据增广与测试时增强（TTA）
 
 [RoIAlign算子具体代码实现（以facebook的maskrcnn-benchmark为例）](./0.ComputerVision/0.Basics/12.RoIAlign.md)
 
@@ -91,7 +89,7 @@ low-level任务基本概念；
 
 StyleGAN 和 StarGAN
 
-
+Diffusion Model：扩散模型原理
 
 
 
@@ -113,7 +111,7 @@ StyleGAN 和 StarGAN
 
 [Efficientnet：通道数、深度、分辨率的复合NAS搜索优化](./0.ComputerVision/5.LiteModels/4.EfficientNet.md)
 
-轻量化超分网络：IMDN、ECBNet、RFDN
+[轻量化超分网络：IMDN、ECBNet、RFDN](./0.ComputerVision/5.LiteModels/8.SRLite.md)
 
 
 
@@ -495,9 +493,9 @@ ISP基本处理流程
 
 #### >> Git相关
 
-Git基本原理
+[Git基本原理](./999.Tools/0.Git/0.GitBasic.md)
 
-Git常用操作指令
+[Git常用操作指令](./999.Tools/0.Git/1.GitCommands.md)
 
 
 

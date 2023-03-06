@@ -21,7 +21,7 @@
 
 [目标检测任务基础模型（两阶段、一阶段，包括R-CNN系列、YOLO系列、SSD）](./0.ComputerVision/0.Basics/2.DetectionBasics.md)
 
-实例分割基本概念与经典模型
+[实例分割基本概念与经典模型：FCIS、YOLCAT、PolarMask、SOLO](./0.ComputerVision/0.Basics/3.InstanceSeg.md)
 
 [计算机视觉任务中常用的loss函数汇总](./0.ComputerVision/0.Basics/4.CVLosses.md)
 
@@ -29,11 +29,11 @@
 
 模型蒸馏（distillation）的基本原理
 
-YOLO实现细节
+[YOLO各版本迭代过程与实现细节](./0.ComputerVision/0.Basics/7.YOLODetails.md)
 
-DeepLab实现细节
+DeepLab v3 实现细节
 
-非极大值抑制方法（NMS）及其实现
+[非极大值抑制方法（NMS）及其实现](./0.ComputerVision/0.Basics/9.NMS.md)
 
 数据增广与测试时增强（TTA）
 
@@ -529,6 +529,8 @@ Python中的深拷贝和浅拷贝
 
 Python中的类（class）的原理与特点
 
+Python中常用的魔法方法
+
 Python的垃圾回收机制（Garbage Collection）
 
 Python的with语句执行原理
@@ -544,6 +546,8 @@ Python的线程、进程，与协程（Corountine）的基本概念
 C/C++基本常识、编译链接过程
 
 C++中的常用修饰符：static、const 等
+
+C++中的指针和引用；值传递、指针传递和引用传递
 
 CMake的使用方法
 

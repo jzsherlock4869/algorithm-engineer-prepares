@@ -91,6 +91,10 @@ StyleGAN 和 StarGAN
 
 Diffusion Model：扩散模型原理
 
+Stable Diffusion Model
+
+Diffusion的应用：去噪、超分、图像生成
+
 
 
 #### 神经网络鲁棒性与攻击

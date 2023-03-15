@@ -41,13 +41,17 @@ DeepLab v3 实现细节
 
 [DeepLab中的CRF的实现](./0.ComputerVision/0.Basics/13.CRFsInCV.md)
 
+[Anchor Free 目标检测方法：CornerNet、CenterNet、FCOS](./0.ComputerVision/0.Basics/14.AnchorFree.md)
+
+[模型量化策略：PTQ、QAT、LSQ](./0.ComputerVision/0.Basics/15.Quant.md)
+
 
 
 #### 低层视觉技术（low-level task）
 
 [图像与视频去噪经典算法与原理](./0.ComputerVision/1.LowLevelTasks/0.Denoise.md)
 
-图像与视频超分辨率：任务与方法
+[图像与视频超分辨率：任务与方法](./0.ComputerVision/1.LowLevelTasks/2.SuperRes.md)
 
 双目超分辨率（Stereo SR）相关模型
 
@@ -89,9 +93,9 @@ DeepLab v3 实现细节
 
 StyleGAN 和 StarGAN
 
-Diffusion Model：扩散模型原理
+[Diffusion Model：扩散模型原理](./0.ComputerVision/3.GenerativeModel/5.Diffusion.md)
 
-Stable Diffusion Model
+[Stable Diffusion Model](./0.ComputerVision/3.GenerativeModel/6.StableDiffusion.md)
 
 Diffusion的应用：去噪、超分、图像生成
 
@@ -155,20 +159,6 @@ context-based 相关模型
 
 
 
-#### 重参数化策略
-
-RepVGG：make VGG great again！
-
-ECB（Edge-oriented Conv Block）：Sobel与Laplacian强化边缘的重参数化策略
-
-ACNet（Asymmetric Conv）：1x3、3x1、3x3的非对称重参数化
-
-DBB（Diverse Branch Block）：不同排列组合的多分支block
-
-SLaK中的重参数化：极端大核如何训练？
-
-
-
 #### 骨干网络（backbone）发展
 
 Resnet变体
@@ -180,6 +170,20 @@ DenseNet
 Inceptions
 
 51x51 SLaK（Sparse Large Kernel）More ConvNets in the 2020s: Scaling up Kernels Beyond 51x51 using Sparsity
+
+
+
+#### 重参数化策略
+
+[RepVGG：make VGG great again！](./0.ComputerVision/9.Reparam/0.RepVGG.md)
+
+[ECB（Edge-oriented Conv Block）：Sobel与Laplacian强化边缘的重参数化策略](./0.ComputerVision/9.Reparam/1.ECB.md)
+
+[ACNet（Asymmetric Conv）：1x3、3x1、3x3的非对称重参数化](./0.ComputerVision/9.Reparam/2.ACNet.md)
+
+[DBB（Diverse Branch Block）：不同排列组合的多分支block](./0.ComputerVision/9.Reparam/3.DBB.md)
+
+[SLaK中的重参数化：极端大核如何训练？](./0.ComputerVision/9.Reparam/4.SLaK.md)
 
 
 

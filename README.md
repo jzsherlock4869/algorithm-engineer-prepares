@@ -3,7 +3,7 @@
 
 【算法岗相关的常用知识梳理，包括理论、代码、经典模型与新技术】**（持续更新ing）**
 
-### 算法工程师的修炼之路（书单）：[点击进入](https://www.douban.com/doulist/158847922/)
+<table><tr><td bgcolor=yellow>### 算法工程师的修炼之路（书单）：[点击进入](https://www.douban.com/doulist/158847922/)</td></tr></table>
 
 
 ---

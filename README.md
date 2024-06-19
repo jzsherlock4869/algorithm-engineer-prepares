@@ -3,10 +3,7 @@
 
 【算法岗相关的常用知识梳理，包括理论、代码、经典模型与新技术】**（持续更新ing）**
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=jzsherlock4869/algorithm-engineer-prepares)
-
-<!-- ![DeathNote L](assets/main-qimg-ed9888b785a37128d862fa85037753eb.png) -->
-
+### 算法工程师的修炼之路（书单）：[点击进入](https://www.douban.com/doulist/158847922/)
 
 
 ---
